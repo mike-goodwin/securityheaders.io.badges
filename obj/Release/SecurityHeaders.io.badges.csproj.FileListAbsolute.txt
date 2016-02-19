@@ -40,3 +40,4 @@ C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.b
 C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\Newtonsoft.Json.xml
 C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\obj\Release\SecurityHeaders.io.badges.dll
 C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\obj\Release\SecurityHeaders.io.badges.pdb
+C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\obj\Release\SecurityHeaders.io.badges.csprojResolveAssemblyReference.cache
