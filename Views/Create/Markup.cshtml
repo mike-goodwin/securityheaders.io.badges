@@ -1,0 +1,65 @@
+﻿@{
+    ViewBag.Title = "create a markup for a security header badge";
+}
+
+<div class="jumbotron">
+
+    <h1>securitybadges.io</h1>
+    <p class="lead">we all like security headers, right? and we <strong>definitely</strong> all like badges. well,this site lets
+    you generate a nice badge for your project page that tells people how your site scores on scott helmes fantastic
+    <a href="https://securityheaders.io" target="_blank">securityheaders.io</a> website.</p>
+
+</div>
+
+
+<form role="form">
+
+    <div class="form-group col-sm-12">
+
+        <div class="col-sm-10">
+            <input type="text" id="domainInput" class="form-control input-lg" placeholder="type your domain including uri scheme e.g. https://www.yourdomain.com">
+        </div>
+
+        <div class="col-sm-2">
+            <button class="btn btn-primary btn-lg btn-block" type="button" onclick="generate()">badge me up!</button>
+        </div>
+
+    </div>
+
+    <div class="form-group col-sm-12">
+
+        <div class="col-sm-10">
+            <input id="markup" class="form-control input-lg" placeholder="markup code" disabled/>
+        </div>
+
+        <div class="col-sm-2">
+            <button class="btn btn-lg btn-block clipboard-trigger"  type="button" data-clipboard-target="#markup">copy markup</button>
+        </div>
+
+    </div>
+
+    <div class="form-group col-sm-12">
+
+        <div class="col-sm-10">
+            <input id="markdown" class="form-control input-lg" placeholder="markdown code" disabled/>
+        </div>
+
+        <div class="col-sm-2">
+            <button class="btn btn-lg btn-block clipboard-trigger"  type="button" data-clipboard-target="#markdown">copy markdown</button>
+        </div>
+
+    </div>
+
+    <div class="form-group col-sm-12">
+
+        <div class="col-sm-10">
+            <input id="image" class="form-control input-lg" placeholder="image url" disabled/>
+        </div>
+
+        <div class="col-sm-2">
+            <button class="btn btn-lg btn-block clipboard-trigger" type="button" data-clipboard-target="#image">copy image url</button>
+        </div>
+
+    </div>
+
+</form>
