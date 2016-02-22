@@ -1,5 +1,7 @@
 ﻿var clipboard = new Clipboard('.clipboard-trigger');
 
+$('#badgemeup').click(generate);
+
 function generate() {
 
     var domain = $('#domainInput').val();

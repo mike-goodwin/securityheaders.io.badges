@@ -5,7 +5,7 @@
 <div class="jumbotron">
 
     <h1>securitybadges.io</h1>
-    <p class="lead">we all like security headers, right? and we <strong>definitely</strong> all like badges. well,this site lets
+    <p class="lead">we all like security headers, right? and we <strong>definitely</strong> all like badges. well, this site lets
     you generate a nice badge for your project page that tells people how your site scores on scott helmes fantastic
     <a href="https://securityheaders.io" target="_blank">securityheaders.io</a> website.</p>
 
@@ -21,7 +21,7 @@
         </div>
 
         <div class="col-sm-2">
-            <button class="btn btn-primary btn-lg btn-block" type="button" onclick="generate()">badge me up!</button>
+            <button id="badgemeup" class="btn btn-primary btn-lg btn-block" type="button">badge me up!</button>
         </div>
 
     </div>
@@ -60,6 +60,12 @@
             <button class="btn btn-lg btn-block clipboard-trigger" type="button" data-clipboard-target="#image">copy image url</button>
         </div>
 
+    </div>
+
+    <div class="col-sm-4 col-sm-offset-4">
+        <h2>
+            preview: <span id="imagepreview"></span>
+        </h2>
     </div>
 
 </form>

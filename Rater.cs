@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Configuration;
+using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -12,15 +13,21 @@ namespace SecurityHeaders.io.badges
     internal class Rater
     {
         private const string SECURITYHEADERSIO = "SecurityHeadersIO";
-        private List<string> blackList = new List<string> { "securityheaders.io", "securitybadges.azurewebsites.net" };
+        private const string DEFAULT_RATING = "?";
+        private List<string> blackList = new List<string> { "securitybadges.azurewebsites.net" };
         internal string Rate(string domain)
         {
-            if (blackList.Any(item => domain.Contains(item)))
-            {
-                throw new BlackListException();
-            }
+            string rating;
 
-            string rating = Parse(GetPageContent(domain));
+            try
+            {
+                rating = Parse(GetPageContent(domain));
+            }
+            catch(Exception e)
+            {
+                rating = DEFAULT_RATING;
+                Trace.TraceError("Error ({0}) while rating domain {1}", e.Message, domain);
+            }
 
             return rating;
         }

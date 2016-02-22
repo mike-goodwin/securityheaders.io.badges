@@ -19,3 +19,11 @@
 .noresize {
   resize: none; 
 }
+
+/* style for form on on github bannner*/
+.forkme {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;
+}

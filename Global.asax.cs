@@ -12,6 +12,7 @@ namespace SecurityHeaders.io.badges
     {
         protected void Application_Start()
         {
+            MvcHandler.DisableMvcResponseHeader = true;
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
         }

@@ -1,11 +1,15 @@
 ﻿var clipboard = new Clipboard('.clipboard-trigger');
 
+$('#badgemeup').click(generate);
+
 function generate() {
 
     var domain = $('#domainInput').val();
-    $('#markup').val(generateMarkup(domain));
+    var markup = generateMarkup(domain)
+    $('#markup').val(markup);
     $('#markdown').val(generateMarkdown(domain));
     $('#image').val(generateImageUrl(domain));
+    $('#imagepreview').html(markup);
 
 }
 
