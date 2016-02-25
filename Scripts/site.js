@@ -4,7 +4,7 @@ $('#badgemeup').click(generate);
 
 function generate() {
 
-    var domain = $('#domainInput').val();
+    var domain = $('#domainInput').val().toLowerCase();
     var markup = generateMarkup(domain)
     $('#markup').val(markup);
     $('#markdown').val(generateMarkdown(domain));
