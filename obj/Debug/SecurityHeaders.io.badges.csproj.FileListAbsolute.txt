@@ -41,3 +41,9 @@ c:\users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.b
 C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\HtmlAgilityPack.dll
 C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\HtmlAgilityPack.pdb
 C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\HtmlAgilityPack.xml
+C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\NWebsec.Core.dll
+C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\NWebsec.dll
+C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\NWebsec.Mvc.dll
+C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\NWebsec.xml
+C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\NWebsec.Core.xml
+C:\Users\mike.goodwin\documents\visual studio 2015\Projects\SecurityHeaders.io.badges\SecurityHeaders.io.badges\bin\NWebsec.Mvc.xml

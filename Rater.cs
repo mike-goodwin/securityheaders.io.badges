@@ -34,7 +34,7 @@ namespace SecurityHeaders.io.badges
 
         private string GetPageContent(string domain)
         {
-            string httpsDomain = WebUtility.UrlEncode(domain);
+            string httpsDomain = WebUtility.UrlEncode(domain.ToLowerInvariant());
             string uriTemplate = ConfigurationManager.AppSettings[SECURITYHEADERSIO];
             string uri = string.Format(uriTemplate, httpsDomain);
             WebClient client = new WebClient();
